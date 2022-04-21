@@ -4,10 +4,10 @@ export default class Pokemon{
     }
   
     sayHello(){
-      console.log(`Mi pokemon ${this.name} te saluda!!!`)
+      console.log(`Mi pokemon ${this.name} te dice hola amigo como estas !!!`)
     }
   
     sayMessage(msg){
-      console.log(`Mi pokemon ${this.name} dice: ${msg}`)
+      console.log(`Mi pokemon ${this.name} te dice: ${msg}`)
     }
   }
