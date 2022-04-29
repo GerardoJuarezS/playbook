@@ -5,11 +5,11 @@ const pullrequest = {
     status: "Open",
     repositoryNameAssociated: "BackendLaunchX",
     getStatus: function(){
-        return "El estado del repositorio esta "+this.status;
+        return "El estado del repositorio esta "+ this.status;
     },
     getTitleAndAutor: function(){
-        return ` El nombre del repositorio es  ${this.getStatus} y se agrego a la rama ${this.branchName} para su validacion, el estado actual del repositorio es ${this.getStatus}`
-    }
+        return ` El nombre del repositorio es  ${this.repositoryNameAssociated} y se agrego a la rama ${this.branchName} para su validacion, el estado actual del repositorio es ${this.status}`
+    },
 }
 
 console.log(pullrequest.getStatus());
